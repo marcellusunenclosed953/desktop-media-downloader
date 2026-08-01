@@ -58,7 +58,12 @@
         "homeCaption": "首页 — 粘贴URL，查看元数据，下载。",
         "formatCaption": "格式选择器 — 选择编解码器、分辨率、容器。",
         "playlistCaption": "播放列表选择器 — 从批次中选择项目。",
-        "queueCaption": "队列 — 进度、暂停、重试，尽在一处。"
+        "queueCaption": "队列 — 进度、暂停、重试，尽在一处。",
+        "viewFull": "查看完整尺寸",
+        "openOriginal": "打开原图",
+        "close": "关闭图片查看器",
+        "previous": "上一张截图",
+        "next": "下一张截图"
     },
     "workflow": {
         "label": "工作流程",

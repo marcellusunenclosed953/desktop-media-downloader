@@ -58,7 +58,12 @@
         "homeCaption": "Ana sayfa — bir URL yapıştırın, meta veriyi görün, indirin.",
         "formatCaption": "Format seçici — codec, çözünürlük, kapsayıcı seçin.",
         "playlistCaption": "Çalma listesi seçici — bir gruptan öğe seçin.",
-        "queueCaption": "Kuyruk — ilerleme, duraklatma, yeniden deneme, hepsi bir arada."
+        "queueCaption": "Kuyruk — ilerleme, duraklatma, yeniden deneme, hepsi bir arada.",
+        "viewFull": "Tam boyutta görüntüle",
+        "openOriginal": "Orijinali aç",
+        "close": "Görüntüleyiciyi kapat",
+        "previous": "Önceki ekran görüntüsü",
+        "next": "Sonraki ekran görüntüsü"
     },
     "workflow": {
         "label": "İş Akışı",

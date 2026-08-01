@@ -58,7 +58,12 @@
         "homeCaption": "Startseite — URL einfügen, Metadaten sehen, herunterladen.",
         "formatCaption": "Format-Auswahl — Codec, Auflösung, Container wählen.",
         "playlistCaption": "Playlist-Auswahl — Elemente aus einem Batch wählen.",
-        "queueCaption": "Warteschlange — Fortschritt, Pause, Wiederholung, alles an einem Ort."
+        "queueCaption": "Warteschlange — Fortschritt, Pause, Wiederholung, alles an einem Ort.",
+        "viewFull": "In voller Größe anzeigen",
+        "openOriginal": "Original öffnen",
+        "close": "Bildansicht schließen",
+        "previous": "Vorheriger Screenshot",
+        "next": "Nächster Screenshot"
     },
     "workflow": {
         "label": "Arbeitsablauf",

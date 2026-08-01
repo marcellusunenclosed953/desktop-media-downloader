@@ -58,7 +58,12 @@
         "homeCaption": "Inicio — pega una URL, ve los metadatos, descarga.",
         "formatCaption": "Selector de formato — elige códec, resolución, contenedor.",
         "playlistCaption": "Selector de lista — elige elementos de un lote.",
-        "queueCaption": "Cola — progreso, pausa, reintento, todo en un lugar."
+        "queueCaption": "Cola — progreso, pausa, reintento, todo en un lugar.",
+        "viewFull": "Ver a tamaño completo",
+        "openOriginal": "Abrir original",
+        "close": "Cerrar visor de imágenes",
+        "previous": "Captura anterior",
+        "next": "Captura siguiente"
     },
     "workflow": {
         "label": "Flujo de trabajo",

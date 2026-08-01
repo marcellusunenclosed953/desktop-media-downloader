@@ -58,7 +58,12 @@
         "homeCaption": "홈 — URL을 붙여넣고, 메타데이터를 보고, 다운로드.",
         "formatCaption": "형식 선택기 — 코덱, 해상도, 컨테이너 선택.",
         "playlistCaption": "재생목록 선택기 — 배치에서 항목 선택.",
-        "queueCaption": "대기열 — 진행률, 일시정지, 재시도, 모두 한 곳에."
+        "queueCaption": "대기열 — 진행률, 일시정지, 재시도, 모두 한 곳에.",
+        "viewFull": "전체 크기로 보기",
+        "openOriginal": "원본 열기",
+        "close": "이미지 뷰어 닫기",
+        "previous": "이전 스크린샷",
+        "next": "다음 스크린샷"
     },
     "workflow": {
         "label": "워크플로우",

@@ -55,6 +55,17 @@ const languageToggle = document.getElementById('language-toggle');
 const languageLabel = document.getElementById('language-label');
 const languageOptions = document.getElementById('language-options');
 const themeToggle = document.getElementById('theme-toggle');
+const screenshotDialog = document.getElementById('screenshot-lightbox');
+const screenshotTriggers = [...document.querySelectorAll('.gallery-trigger')];
+const lightboxImage = document.getElementById('lightbox-image');
+const lightboxTitle = document.getElementById('lightbox-title');
+const lightboxCaption = document.getElementById('lightbox-caption');
+const lightboxCounter = document.getElementById('lightbox-counter');
+const lightboxOriginal = document.getElementById('lightbox-original');
+const lightboxClose = document.getElementById('lightbox-close');
+const lightboxPrevious = document.getElementById('lightbox-previous');
+const lightboxNext = document.getElementById('lightbox-next');
+let activeScreenshotIndex = 0;
 
 function readStorage(key) {
   try {
@@ -122,7 +133,88 @@ function applyTranslations() {
     button.classList.toggle('is-active', button.dataset.language === state.language);
   });
 
+  refreshScreenshotLabels();
   renderRelease();
+}
+
+function screenshotDetails(index) {
+  const trigger = screenshotTriggers[index];
+  const figure = trigger?.closest('figure');
+  const image = trigger?.querySelector('img');
+  const captionParts = figure ? [...figure.querySelectorAll('figcaption span')] : [];
+  return {
+    image,
+    label: image?.alt || captionParts[0]?.textContent?.trim() || '',
+    caption: captionParts[1]?.textContent?.trim() || image?.alt || '',
+  };
+}
+
+function refreshScreenshotLabels() {
+  const viewFullLabel = text('screenshots.viewFull', 'View full size');
+  screenshotTriggers.forEach((trigger, index) => {
+    const { image } = screenshotDetails(index);
+    trigger.setAttribute('aria-label', `${viewFullLabel}: ${image?.alt || ''}`);
+  });
+
+  lightboxClose?.setAttribute('aria-label', text('screenshots.close', 'Close screenshot viewer'));
+  lightboxPrevious?.setAttribute('aria-label', text('screenshots.previous', 'Previous screenshot'));
+  lightboxNext?.setAttribute('aria-label', text('screenshots.next', 'Next screenshot'));
+}
+
+function updateScreenshotDialog(index) {
+  if (!screenshotTriggers.length) return;
+  activeScreenshotIndex = (index + screenshotTriggers.length) % screenshotTriggers.length;
+  const { image, label, caption } = screenshotDetails(activeScreenshotIndex);
+  if (!image) return;
+
+  const source = image.currentSrc || image.src;
+  lightboxImage.src = source;
+  lightboxImage.alt = image.alt;
+  lightboxTitle.textContent = label;
+  lightboxCaption.textContent = caption;
+  lightboxCounter.textContent = `${String(activeScreenshotIndex + 1).padStart(2, '0')} / ${String(screenshotTriggers.length).padStart(2, '0')}`;
+  lightboxOriginal.href = source;
+}
+
+function openScreenshotDialog(index) {
+  updateScreenshotDialog(index);
+  document.body.classList.add('has-dialog');
+  if (typeof screenshotDialog.showModal === 'function') {
+    if (!screenshotDialog.open) screenshotDialog.showModal();
+  } else {
+    screenshotDialog.setAttribute('open', '');
+  }
+}
+
+function closeScreenshotDialog() {
+  if (typeof screenshotDialog.close === 'function' && screenshotDialog.open) {
+    screenshotDialog.close();
+  } else {
+    screenshotDialog.removeAttribute('open');
+    document.body.classList.remove('has-dialog');
+  }
+}
+
+function initializeScreenshotGallery() {
+  screenshotTriggers.forEach((trigger, index) => {
+    trigger.addEventListener('click', () => openScreenshotDialog(index));
+  });
+
+  lightboxClose?.addEventListener('click', closeScreenshotDialog);
+  lightboxPrevious?.addEventListener('click', () => updateScreenshotDialog(activeScreenshotIndex - 1));
+  lightboxNext?.addEventListener('click', () => updateScreenshotDialog(activeScreenshotIndex + 1));
+
+  screenshotDialog?.addEventListener('click', (event) => {
+    if (event.target === screenshotDialog) closeScreenshotDialog();
+  });
+  screenshotDialog?.addEventListener('close', () => {
+    document.body.classList.remove('has-dialog');
+  });
+  screenshotDialog?.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeScreenshotDialog();
+    if (event.key === 'ArrowLeft') updateScreenshotDialog(activeScreenshotIndex - 1);
+    if (event.key === 'ArrowRight') updateScreenshotDialog(activeScreenshotIndex + 1);
+  });
 }
 
 async function setLanguage(code) {
@@ -359,6 +451,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', u
 
 async function initialize() {
   buildLanguageMenu();
+  initializeScreenshotGallery();
   updateThemeLabel();
   initializeRevealAnimations();
   await setLanguage(detectLanguage());

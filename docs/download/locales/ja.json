@@ -58,7 +58,12 @@
         "homeCaption": "ホーム — URLを貼り付け、メタデータを確認、ダウンロード。",
         "formatCaption": "フォーマット選択 — コーデック、解像度、コンテナを選択。",
         "playlistCaption": "プレイリスト選択 — バッチからアイテムを選択。",
-        "queueCaption": "キュー — 進捗、一時停止、再試行、すべて一か所で。"
+        "queueCaption": "キュー — 進捗、一時停止、再試行、すべて一か所で。",
+        "viewFull": "フルサイズで表示",
+        "openOriginal": "元の画像を開く",
+        "close": "画像ビューアを閉じる",
+        "previous": "前のスクリーンショット",
+        "next": "次のスクリーンショット"
     },
     "workflow": {
         "label": "ワークフロー",

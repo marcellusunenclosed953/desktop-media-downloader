@@ -58,7 +58,12 @@
         "homeCaption": "Paste a URL and get a responsive media preview.",
         "formatCaption": "Choose quality, format, and output type.",
         "playlistCaption": "Select individual items from a batch.",
-        "queueCaption": "Track progress and recover failed jobs."
+        "queueCaption": "Track progress and recover failed jobs.",
+        "viewFull": "View full size",
+        "openOriginal": "Open original",
+        "close": "Close screenshot viewer",
+        "previous": "Previous screenshot",
+        "next": "Next screenshot"
     },
     "workflow": {
         "label": "Workflow",

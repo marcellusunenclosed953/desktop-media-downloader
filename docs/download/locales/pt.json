@@ -58,7 +58,12 @@
         "homeCaption": "Início — cole uma URL, veja metadados, baixe.",
         "formatCaption": "Seletor de formato — escolha codec, resolução, container.",
         "playlistCaption": "Seletor de playlist — escolha itens de um lote.",
-        "queueCaption": "Fila — progresso, pausa, nova tentativa, tudo em um lugar."
+        "queueCaption": "Fila — progresso, pausa, nova tentativa, tudo em um lugar.",
+        "viewFull": "Ver em tamanho real",
+        "openOriginal": "Abrir original",
+        "close": "Fechar visualizador",
+        "previous": "Captura anterior",
+        "next": "Próxima captura"
     },
     "workflow": {
         "label": "Fluxo de trabalho",

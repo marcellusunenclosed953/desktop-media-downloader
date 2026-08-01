@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "downloads": "Téléchargements",
+        "features": "Fonctionnalités",
+        "screenshots": "Captures d'écran",
+        "source": "Source"
+    },
+    "hero": {
+        "tag": "// open-source & multiplateforme",
+        "title": "Une façon plus propre de <em>télécharger des médias.</em>",
+        "desc": "Collez un lien, choisissez un format et laissez Desktop Media Downloader faire le reste. Electron + yt-dlp sous le capot, une file d'attente soignée en surface.",
+        "downloadBtn": "Télécharger",
+        "seeFirst": "Voir d'abord"
+    },
+    "stats": {
+        "license": "Licence",
+        "platforms": "Plateformes",
+        "backend": "Moteur"
+    },
+    "downloads": {
+        "label": "Téléchargements",
+        "title": "Télécharger l'installateur",
+        "desc": "Depuis la dernière version GitHub. Choisissez votre OS.",
+        "loading": "chargement…",
+        "yourOS": "→ votre OS",
+        "windows": "Windows",
+        "macos": "macOS",
+        "linux": "Linux",
+        "windowsHint": "installateur .exe",
+        "macosHint": "image disque .dmg",
+        "linuxHint": ".AppImage portable",
+        "downloadBtn": "Télécharger",
+        "notInRelease": "Absent de la dernière version.",
+        "releases": "Versions",
+        "couldNotLoad": "impossible de charger la version"
+    },
+    "features": {
+        "label": "Fonctionnalités",
+        "title": "Ce qu'il fait",
+        "desc": "Analyse d'URL, choix de format, gestion de file d'attente — pas de terminal nécessaire.",
+        "metadataTitle": "Aperçu des métadonnées",
+        "metadataDesc": "Voyez le titre, la durée et les formats disponibles avant de télécharger.",
+        "formatTitle": "Contrôle format & qualité",
+        "formatDesc": "Choisissez un profil audio ou vidéo — pas de devinettes, pas de re-téléchargements.",
+        "playlistTitle": "Support playlists & lots",
+        "playlistDesc": "Sélectionnez des éléments spécifiques des chaînes et playlists au lieu de tout prendre.",
+        "queueTitle": "Gestion de file d'attente",
+        "queueDesc": "Pause, reprise, nouvelle tentative ou annulation — tout sur un seul écran.",
+        "wizardTitle": "Moteur multimédia autonome",
+        "wizardDesc": "Le téléchargeur et l'environnement JavaScript requis sont inclus et vérifiés. Aucune installation séparée de Python ou d’un yt-dlp système n’est requise.",
+        "historyTitle": "Historique persistant",
+        "historyDesc": "Les téléchargements passés et les préférences sont conservés entre les sessions."
+    },
+    "screenshots": {
+        "label": "Aperçu",
+        "title": "Ce que vous installez",
+        "desc": "Captures réelles de l'application.",
+        "homeCaption": "Accueil — collez une URL, voyez les métadonnées, téléchargez.",
+        "formatCaption": "Sélecteur de format — choisissez codec, résolution, conteneur.",
+        "playlistCaption": "Sélecteur de playlist — choisissez les éléments d'un lot.",
+        "queueCaption": "File d'attente — progression, pause, nouvelle tentative, tout en un."
+    },
+    "workflow": {
+        "label": "Flux de travail",
+        "title": "Quatre étapes, du début à la fin",
+        "step1Title": "Installer",
+        "step1Desc": "Lancez l'installateur, suivez l'assistant de configuration.",
+        "step2Title": "Coller",
+        "step2Desc": "Déposez une URL — métadonnées et formats se chargent automatiquement.",
+        "step3Title": "Configurer",
+        "step3Desc": "Définissez le format, la qualité et le dossier de sortie.",
+        "step4Title": "Télécharger",
+        "step4Desc": "Lancez. Suivez la progression dans la file d'attente."
+    },
+    "releaseNotes": {
+        "coreTitle": "Cœur autonome",
+        "coreDesc": "Electron, un environnement Node.js pris en charge et une version de yt-dlp vérifiée par somme de contrôle sont inclus.",
+        "ffmpegTitle": "FFmpeg est facultatif",
+        "ffmpegDesc": "Installez-le pour fusionner des flux haute qualité, convertir en MP3, ajouter des métadonnées et créer des captures.",
+        "unsignedTitle": "Versions open source non signées",
+        "unsignedDesc": "La signature commerciale du code n'est pas incluse actuellement ; votre système peut donc afficher un avertissement."
+    },
+    "trust": {
+        "label": "Système et confiance",
+        "title": "Sachez exactement ce que vous installez.",
+        "desc": "Desktop Media Downloader est open source, ne nécessite aucun compte et conserve l'historique et les préférences dans le stockage local de l'application.",
+        "systemsTitle": "Systèmes pris en charge",
+        "windows": "Windows 10 ou version ultérieure, x64",
+        "macos": "macOS 12 ou version ultérieure",
+        "linux": "Une distribution Linux x64 actuelle",
+        "requirementsLink": "Lire la configuration requise",
+        "responsibleTitle": "Utilisation responsable",
+        "responsibleDesc": "Téléchargez uniquement les médias que vous êtes autorisé à enregistrer. L'application n'est pas destinée à contourner les DRM, les péages ou les contrôles d'accès.",
+        "legalLink": "Lire les mentions légales",
+        "browserTitle": "Accès facultatif au navigateur",
+        "browserDesc": "L'accès aux cookies du navigateur est désactivé par défaut et n'est utilisé que lorsque vous choisissez explicitement un navigateur pour des médias authentifiés.",
+        "sourceLink": "Examiner le code source"
+    },
+    "final": {
+        "eyebrow": "Version 1.0.0",
+        "title": "Prêt dès que votre lien l'est."
+    },
+    "footer": {
+        "releasesText": "Tous les binaires disponibles sur",
+        "releasesLink": "GitHub Releases",
+        "projectDescription": "De petits outils pour de meilleurs usages du bureau.",
+        "issues": "Problèmes",
+        "license": "Licence MIT",
+        "copyright": "© 2026 Contributeurs de Desktop Utilities.",
+        "warning": "Un avertissement de signature peut apparaître au premier lancement — l'application est open-source et n'est pas signée commercialement. Sur Windows cliquez sur <strong>Plus d'infos → Exécuter quand même</strong>, sur macOS utilisez <strong>Réglages Système → Ouvrir quand même</strong>."
+    },
+    "modal": {
+        "badge": "téléchargement démarré",
+        "title": "À propos des avertissements d'installation",
+        "body": "Votre téléchargement a commencé. Windows et macOS peuvent afficher un avertissement de confiance car Desktop Media Downloader n'est pas signé commercialement — c'est une question de coût de signature, pas de sécurité.",
+        "checksTitle": "Vérifications rapides",
+        "check1": "N'utilisez que les liens de cette page ou des versions officielles GitHub.",
+        "check2": "Comparez les tags de version et les commits dans le dépôt.",
+        "check3": "Lisez le code source pour une confiance totale.",
+        "viewSource": "Voir le source",
+        "gotIt": "Compris",
+        "close": "Fermer"
+    }
+}

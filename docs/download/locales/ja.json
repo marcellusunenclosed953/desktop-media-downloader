@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "downloads": "ダウンロード",
+        "features": "機能",
+        "screenshots": "スクリーンショット",
+        "source": "ソースコード"
+    },
+    "hero": {
+        "tag": "// オープンソース & クロスプラットフォーム",
+        "title": "メディアを<em>もっとスマートに</em>ダウンロード。",
+        "desc": "リンクを貼り付け、フォーマットを選び、あとはDesktop Media Downloaderにお任せ。裏でElectron + yt-dlp、表面は整ったキュー。",
+        "downloadBtn": "ダウンロード",
+        "seeFirst": "まず見てみる"
+    },
+    "stats": {
+        "license": "ライセンス",
+        "platforms": "プラットフォーム",
+        "backend": "バックエンド"
+    },
+    "downloads": {
+        "label": "ダウンロード",
+        "title": "インストーラーを入手",
+        "desc": "最新のGitHubリリースから。お使いのOSを選択してください。",
+        "loading": "読み込み中…",
+        "yourOS": "→ お使いのOS",
+        "windows": "Windows",
+        "macos": "macOS",
+        "linux": "Linux",
+        "windowsHint": ".exe インストーラー",
+        "macosHint": ".dmg ディスクイメージ",
+        "linuxHint": ".AppImage ポータブル",
+        "downloadBtn": "ダウンロード",
+        "notInRelease": "最新リリースには含まれていません。",
+        "releases": "リリース一覧",
+        "couldNotLoad": "リリースを読み込めませんでした"
+    },
+    "features": {
+        "label": "機能",
+        "title": "できること",
+        "desc": "URL解析、フォーマット選択、キュー管理 — ターミナル不要。",
+        "metadataTitle": "URLメタデータプレビュー",
+        "metadataDesc": "ダウンロード前にタイトル、長さ、利用可能なフォーマットを確認。",
+        "formatTitle": "フォーマット＆品質コントロール",
+        "formatDesc": "音声またはビデオプロファイルを選択 — 推測不要、再ダウンロード不要。",
+        "playlistTitle": "プレイリスト＆一括対応",
+        "playlistDesc": "チャンネルやプレイリストから特定のアイテムを選んでダウンロード。",
+        "queueTitle": "キュー管理",
+        "queueDesc": "一時停止、再開、再試行、キャンセル — すべて一画面に。",
+        "wizardTitle": "自己完結型メディアエンジン",
+        "wizardDesc": "必要なダウンローダーとJavaScriptランタイムは同梱・検証済みです。Pythonやシステムのyt-dlpを別途インストールする必要はありません。",
+        "historyTitle": "永続的な履歴",
+        "historyDesc": "過去のダウンロードと設定がセッション間で保持されます。"
+    },
+    "screenshots": {
+        "label": "プレビュー",
+        "title": "インストールするもの",
+        "desc": "アプリの実際のキャプチャ画像。",
+        "homeCaption": "ホーム — URLを貼り付け、メタデータを確認、ダウンロード。",
+        "formatCaption": "フォーマット選択 — コーデック、解像度、コンテナを選択。",
+        "playlistCaption": "プレイリスト選択 — バッチからアイテムを選択。",
+        "queueCaption": "キュー — 進捗、一時停止、再試行、すべて一か所で。"
+    },
+    "workflow": {
+        "label": "ワークフロー",
+        "title": "4ステップで完了",
+        "step1Title": "インストール",
+        "step1Desc": "インストーラーを実行し、セットアップウィザードに従います。",
+        "step2Title": "貼り付け",
+        "step2Desc": "URLを入力 — メタデータとフォーマットが自動で読み込まれます。",
+        "step3Title": "設定",
+        "step3Desc": "フォーマット、品質、出力フォルダを設定。",
+        "step4Title": "ダウンロード",
+        "step4Desc": "開始をクリック。キューで進捗を追跡。"
+    },
+    "releaseNotes": {
+        "coreTitle": "自己完結型コア",
+        "coreDesc": "Electron、対応するNode.jsランタイム、チェックサム検証済みのyt-dlpビルドが含まれます。",
+        "ffmpegTitle": "FFmpegは任意です",
+        "ffmpegDesc": "高品質ストリームの結合、MP3変換、メタデータ、スクリーンショットに使用します。",
+        "unsignedTitle": "未署名のオープンソースビルド",
+        "unsignedDesc": "商用コード署名は現在含まれていないため、OSが警告を表示する場合があります。"
+    },
+    "trust": {
+        "label": "システムと信頼性",
+        "title": "何をインストールするかを明確に。",
+        "desc": "Desktop Media Downloaderはオープンソースで、アプリ用アカウントは不要です。履歴と設定はアプリのローカル領域に保存されます。",
+        "systemsTitle": "対応システム",
+        "windows": "Windows 10以降、x64",
+        "macos": "macOS 12以降",
+        "linux": "最新のx64 Linuxディストリビューション",
+        "requirementsLink": "システム要件を読む",
+        "responsibleTitle": "責任ある利用",
+        "responsibleDesc": "保存する権限のあるメディアのみをダウンロードしてください。DRM、ペイウォール、アクセス制御の回避を目的としたアプリではありません。",
+        "legalLink": "法的通知を読む",
+        "browserTitle": "任意のブラウザーアクセス",
+        "browserDesc": "ブラウザーCookieへのアクセスは既定で無効で、認証済みメディア用に明示的にブラウザーを選んだ場合のみ使用されます。",
+        "sourceLink": "ソースを確認"
+    },
+    "final": {
+        "eyebrow": "バージョン 1.0.0",
+        "title": "リンクの準備ができたら、すぐに使えます。"
+    },
+    "footer": {
+        "releasesText": "すべてのバイナリは",
+        "releasesLink": "GitHub Releases",
+        "projectDescription": "デスクトップ体験を改善する小さなツール。",
+        "issues": "問題",
+        "license": "MITライセンス",
+        "copyright": "© 2026 Desktop Utilities Contributors.",
+        "warning": "初回起動時に署名の警告が表示される場合があります — アプリはオープンソースで商用コード署名されていません。Windowsでは<strong>詳細情報 → 実行</strong>を、macOSでは<strong>システム設定 → このまま開く</strong>をクリックしてください。"
+    },
+    "modal": {
+        "badge": "ダウンロード開始",
+        "title": "インストーラーの警告について",
+        "body": "ダウンロードが開始されました。Desktop Media Downloaderは商用コード署名されていないため、WindowsとmacOSが信頼の警告を表示する場合があります — これは署名コストの問題であり、セキュリティの問題ではありません。",
+        "checksTitle": "クイックチェック",
+        "check1": "このページまたは公式GitHubリリースのリンクのみを使用してください。",
+        "check2": "リポジトリのリリースタグとコミットを比較してください。",
+        "check3": "完全な確信が必要な場合はソースコードを読んでください。",
+        "viewSource": "ソースを見る",
+        "gotIt": "了解",
+        "close": "閉じる"
+    }
+}

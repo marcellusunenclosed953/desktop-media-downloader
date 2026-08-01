@@ -1,0 +1,43 @@
+// @see - https://www.electron.build/configuration/configuration
+{
+  $schema: "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  appId: "io.github.desktoputilities.media-downloader",
+  asar: true,
+  productName: "Desktop Media Downloader",
+  executableName: "desktop-media-downloader",
+  directories: {
+    output: "release/${version}",
+  },
+  files: ["dist", "dist-electron"],
+  extraResources: [
+    { from: "bin/", to: "bin/", filter: ["**/*", "!.gitkeep"] },
+    { from: "THIRD_PARTY_NOTICES.md", to: "THIRD_PARTY_NOTICES.md" },
+    { from: "LICENSE", to: "DESKTOP_UTILITIES_LICENSE.txt" },
+  ],
+  mac: {
+    icon: "build/icons/icon.png",
+    target: ["dmg"],
+    artifactName: "Desktop-Media-Downloader-macOS-${version}.${ext}",
+  },
+  win: {
+    icon: "build/icons/icon.ico",
+    target: [
+      {
+        target: "nsis",
+        arch: ["x64"],
+      },
+    ],
+    artifactName: "Desktop-Media-Downloader-Windows-${version}-Setup.${ext}",
+  },
+  nsis: {
+    oneClick: false,
+    perMachine: false,
+    allowToChangeInstallationDirectory: true,
+    deleteAppDataOnUninstall: false,
+  },
+  linux: {
+    icon: "build/icons/icon.png",
+    target: ["AppImage"],
+    artifactName: "Desktop-Media-Downloader-Linux-${version}.${ext}",
+  },
+}

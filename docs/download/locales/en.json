@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "downloads": "Downloads",
+        "features": "Capabilities",
+        "screenshots": "Interface",
+        "source": "Source"
+    },
+    "hero": {
+        "tag": "Open source / Windows / macOS / Linux",
+        "title": "A focused <em>desktop media downloader.</em>",
+        "desc": "Download video, audio, playlists, thumbnails, and timestamp screenshots from YouTube and other yt-dlp-supported sites when you are authorized to save them.",
+        "downloadBtn": "Download",
+        "seeFirst": "See the interface"
+    },
+    "stats": {
+        "license": "License",
+        "platforms": "Platforms",
+        "backend": "Media engine"
+    },
+    "downloads": {
+        "label": "Downloads",
+        "title": "Choose your installer.",
+        "desc": "Official builds are loaded directly from the latest GitHub release.",
+        "loading": "Checking the latest release…",
+        "yourOS": "Detected system",
+        "windows": "Windows",
+        "macos": "macOS",
+        "linux": "Linux",
+        "windowsHint": ".exe installer",
+        "macosHint": ".dmg disk image",
+        "linuxHint": ".AppImage portable",
+        "downloadBtn": "Download",
+        "notInRelease": "Installer pending in the latest release.",
+        "releases": "View releases",
+        "couldNotLoad": "Release pending — view GitHub for status"
+    },
+    "features": {
+        "label": "Capabilities",
+        "title": "The control you need. Nothing you do not.",
+        "desc": "Analyze links, choose formats, and manage the queue without working in a terminal.",
+        "metadataTitle": "Fast URL previews",
+        "metadataDesc": "See an immediate preview while full metadata and available formats load in the background.",
+        "formatTitle": "Format and quality control",
+        "formatDesc": "Choose video, audio, thumbnails, or timestamp screenshots with clear output options.",
+        "playlistTitle": "Playlist and batch support",
+        "playlistDesc": "Inspect a playlist and select the exact items you want before the queue starts.",
+        "queueTitle": "Reliable queue management",
+        "queueDesc": "Pause, resume, cancel, or retry downloads and keep completed work organized.",
+        "wizardTitle": "Self-contained media engine",
+        "wizardDesc": "The required downloader and JavaScript runtime are bundled and verified. No separate Python or system yt-dlp installation is required.",
+        "historyTitle": "Local history",
+        "historyDesc": "History and preferences stay on your device and can be removed whenever you choose."
+    },
+    "screenshots": {
+        "label": "Interface",
+        "title": "Made to stay out of your way.",
+        "desc": "Actual application captures in its monochrome dark theme.",
+        "homeCaption": "Paste a URL and get a responsive media preview.",
+        "formatCaption": "Choose quality, format, and output type.",
+        "playlistCaption": "Select individual items from a batch.",
+        "queueCaption": "Track progress and recover failed jobs."
+    },
+    "workflow": {
+        "label": "Workflow",
+        "title": "From link to file in four steps.",
+        "step1Title": "Install",
+        "step1Desc": "Run the installer and confirm the first-run system check.",
+        "step2Title": "Paste",
+        "step2Desc": "Add a supported media URL and review the preview.",
+        "step3Title": "Configure",
+        "step3Desc": "Choose output type, quality, and destination.",
+        "step4Title": "Download",
+        "step4Desc": "Start the job and manage it from the persistent queue."
+    },
+    "releaseNotes": {
+        "coreTitle": "Self-contained core",
+        "coreDesc": "Electron, a supported Node.js runtime, and a checksum-verified yt-dlp build are included.",
+        "ffmpegTitle": "FFmpeg is optional",
+        "ffmpegDesc": "Install it for high-quality stream merging, MP3 conversion, metadata, and screenshots.",
+        "unsignedTitle": "Unsigned open-source builds",
+        "unsignedDesc": "Commercial code signing is not currently included, so your operating system may show a warning."
+    },
+    "trust": {
+        "label": "System & trust",
+        "title": "Know exactly what you are installing.",
+        "desc": "Desktop Media Downloader is open source, requires no app account, and keeps its history and preferences in local application storage.",
+        "systemsTitle": "Supported systems",
+        "windows": "Windows 10 or newer, x64",
+        "macos": "macOS 12 or newer",
+        "linux": "A current x64 Linux distribution",
+        "requirementsLink": "Read system requirements",
+        "responsibleTitle": "Responsible use",
+        "responsibleDesc": "Only download media you are authorized to save. The app is not intended to bypass DRM, paywalls, or access controls.",
+        "legalLink": "Read the legal notice",
+        "browserTitle": "Optional browser access",
+        "browserDesc": "Browser-cookie access is disabled by default and is used only when you explicitly choose a browser for authenticated media.",
+        "sourceLink": "Review the source"
+    },
+    "final": {
+        "eyebrow": "Version 1.0.0",
+        "title": "Ready when your link is."
+    },
+    "footer": {
+        "releasesText": "All binaries available on",
+        "releasesLink": "GitHub Releases",
+        "projectDescription": "Small tools for better desktop workflows.",
+        "issues": "Issues",
+        "license": "MIT License",
+        "copyright": "© 2026 Desktop Utilities Contributors.",
+        "warning": "Open-source builds are not currently commercially code-signed. Verify downloads against the official GitHub release."
+    },
+    "modal": {
+        "badge": "download started",
+        "title": "About installer warnings",
+        "body": "Your download has started. Windows and macOS may show a trust warning because Desktop Media Downloader isn't commercially code-signed — that's a signing cost issue, not a safety issue.",
+        "checksTitle": "Quick checks",
+        "check1": "Only use links from this page or official GitHub releases.",
+        "check2": "Compare release tags and commits in the repo.",
+        "check3": "Read the source if you want full confidence.",
+        "viewSource": "View source",
+        "gotIt": "Got it",
+        "close": "Close"
+    }
+}

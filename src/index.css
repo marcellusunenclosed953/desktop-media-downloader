@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root,
+  .dark {
+    color-scheme: dark;
+    --background: 12 12 12;
+    --foreground: 245 245 245;
+    --primary: 245 245 245;
+    --primary-foreground: 12 12 12;
+    --secondary: 28 28 28;
+    --secondary-foreground: 184 184 184;
+    --accent: 210 210 210;
+    --accent-foreground: 12 12 12;
+    --success: 224 224 224;
+    --warning: 190 190 190;
+    --error: 245 245 245;
+    --card: 19 19 19;
+    --card-foreground: 245 245 245;
+    --app-bg:
+      radial-gradient(circle at 22% -8%, rgba(255, 255, 255, 0.055), transparent 32%),
+      linear-gradient(145deg, rgb(9, 9, 9), rgb(15, 15, 15));
+  }
+
+  .light {
+    color-scheme: light;
+    --background: 246 246 244;
+    --foreground: 18 18 18;
+    --primary: 18 18 18;
+    --primary-foreground: 250 250 248;
+    --secondary: 232 232 229;
+    --secondary-foreground: 76 76 73;
+    --accent: 45 45 43;
+    --accent-foreground: 250 250 248;
+    --success: 42 42 40;
+    --warning: 84 84 80;
+    --error: 18 18 18;
+    --card: 255 255 253;
+    --card-foreground: 18 18 18;
+    --app-bg:
+      radial-gradient(circle at 22% -8%, rgba(0, 0, 0, 0.035), transparent 34%),
+      linear-gradient(145deg, rgb(250, 250, 248), rgb(241, 241, 238));
+  }
+
+  * {
+    border-color: rgb(var(--foreground) / 0.1);
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground overflow-hidden antialiased;
+    background: var(--app-bg);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  button {
+    user-select: none;
+  }
+
+  ::selection {
+    color: rgb(var(--primary-foreground));
+    background: rgb(var(--primary));
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--foreground) / 0.55);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-card/80 backdrop-blur-xl border border-foreground/10 shadow-[0_8px_28px_rgba(0,0,0,0.22)];
+  }
+
+  .glass-card {
+    @apply bg-card/90 backdrop-blur-xl border border-foreground/10 hover:border-foreground/25 transition-all duration-200 shadow-[0_12px_30px_rgba(0,0,0,0.2)];
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 active:bg-primary/80 transition-colors duration-150 shadow-[0_8px_20px_rgba(0,0,0,0.2)];
+  }
+
+  .panel {
+    @apply bg-card/90 border border-foreground/10 rounded-2xl shadow-[0_16px_40px_rgba(0,0,0,0.22)] backdrop-blur-xl;
+  }
+
+  .section-title {
+    @apply text-[11px] font-semibold tracking-[0.18em] uppercase text-foreground/55;
+  }
+
+  .page-shell {
+    @apply h-full w-full bg-transparent flex flex-col p-8 overflow-auto;
+  }
+
+  .surface-card {
+    @apply bg-card/90 border border-foreground/10 rounded-2xl shadow-[0_14px_36px_rgba(0,0,0,0.18)] backdrop-blur-lg;
+  }
+
+  .surface-subtle {
+    @apply bg-secondary/55 border border-foreground/10 rounded-xl;
+  }
+
+  .soft-input {
+    @apply w-full bg-secondary/55 border border-foreground/10 rounded-xl text-sm placeholder:text-foreground/35 focus:outline-none focus:border-foreground/35 focus:ring-1 focus:ring-foreground/20;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-3 py-2 text-sm rounded-lg bg-secondary/60 hover:bg-secondary border border-foreground/10 text-foreground/70 hover:text-foreground transition-colors;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center gap-2 px-3 py-2 text-sm rounded-lg bg-foreground/[0.04] border border-foreground/20 text-foreground/70 hover:bg-foreground/10 hover:text-foreground transition-colors;
+  }
+
+  .stats-chip {
+    @apply px-2.5 py-1 rounded-lg text-xs font-medium bg-secondary/60 border border-foreground/10 text-foreground/65;
+  }
+
+  .list-card {
+    @apply bg-secondary/40 border border-foreground/10 rounded-xl p-4 hover:bg-secondary/60 hover:border-foreground/20 transition-colors;
+  }
+}
+
+@layer utilities {
+  .drag-region {
+    -webkit-app-region: drag;
+  }
+
+  .no-drag {
+    -webkit-app-region: no-drag;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-foreground/15 rounded-full hover:bg-foreground/25;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.08); }
+  50% { box-shadow: 0 0 24px rgba(255, 255, 255, 0.16); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s infinite;
+}
+
+.grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgb(var(--foreground) / 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--foreground) / 0.018) 1px, transparent 1px);
+  background-size: 160px 160px;
+  mask-image: radial-gradient(circle at center, rgb(0 0 0 / 0.16), transparent 72%);
+  pointer-events: none;
+}
+
+.light .glass-panel,
+.light .panel,
+.light .surface-card,
+.light .glass-card {
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.07);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

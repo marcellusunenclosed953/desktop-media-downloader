@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "downloads": "下载",
+        "features": "功能",
+        "screenshots": "截图",
+        "source": "源码"
+    },
+    "hero": {
+        "tag": "// 开源 & 跨平台",
+        "title": "更简洁的<em>媒体下载</em>方式。",
+        "desc": "粘贴链接，选择格式，让Desktop Media Downloader处理剩下的。底层是Electron + yt-dlp，表面是整洁的队列。",
+        "downloadBtn": "下载",
+        "seeFirst": "先看看"
+    },
+    "stats": {
+        "license": "许可证",
+        "platforms": "平台",
+        "backend": "后端"
+    },
+    "downloads": {
+        "label": "下载",
+        "title": "获取安装程序",
+        "desc": "来自最新GitHub发布。选择您的操作系统。",
+        "loading": "加载中…",
+        "yourOS": "→ 您的操作系统",
+        "windows": "Windows",
+        "macos": "macOS",
+        "linux": "Linux",
+        "windowsHint": ".exe 安装程序",
+        "macosHint": ".dmg 磁盘映像",
+        "linuxHint": ".AppImage 便携版",
+        "downloadBtn": "下载",
+        "notInRelease": "不在最新版本中。",
+        "releases": "发布列表",
+        "couldNotLoad": "无法加载版本"
+    },
+    "features": {
+        "label": "功能",
+        "title": "它能做什么",
+        "desc": "URL分析、格式选择、队列管理 — 无需终端。",
+        "metadataTitle": "URL元数据预览",
+        "metadataDesc": "下载前查看标题、时长和可用格式。",
+        "formatTitle": "格式和质量控制",
+        "formatDesc": "选择音频或视频配置 — 无需猜测，无需重新下载。",
+        "playlistTitle": "播放列表和批量支持",
+        "playlistDesc": "从频道和播放列表中选择特定项目，而不是全部下载。",
+        "queueTitle": "队列管理",
+        "queueDesc": "暂停、恢复、重试或取消 — 一切尽在一个页面。",
+        "wizardTitle": "自包含媒体引擎",
+        "wizardDesc": "所需下载器和JavaScript运行时均已捆绑并验证。无需单独安装Python或系统yt-dlp。",
+        "historyTitle": "持久历史",
+        "historyDesc": "过去的下载和偏好设置在会话间保持。"
+    },
+    "screenshots": {
+        "label": "预览",
+        "title": "您要安装的",
+        "desc": "应用的实际截图。",
+        "homeCaption": "首页 — 粘贴URL，查看元数据，下载。",
+        "formatCaption": "格式选择器 — 选择编解码器、分辨率、容器。",
+        "playlistCaption": "播放列表选择器 — 从批次中选择项目。",
+        "queueCaption": "队列 — 进度、暂停、重试，尽在一处。"
+    },
+    "workflow": {
+        "label": "工作流程",
+        "title": "四步完成",
+        "step1Title": "安装",
+        "step1Desc": "运行安装程序，按照设置向导操作。",
+        "step2Title": "粘贴",
+        "step2Desc": "输入URL — 元数据和格式自动加载。",
+        "step3Title": "配置",
+        "step3Desc": "设置格式、质量和输出文件夹。",
+        "step4Title": "下载",
+        "step4Desc": "点击开始。在队列中跟踪进度。"
+    },
+    "releaseNotes": {
+        "coreTitle": "自包含核心",
+        "coreDesc": "已包含Electron、受支持的Node.js运行时和经过校验和验证的yt-dlp版本。",
+        "ffmpegTitle": "FFmpeg为可选组件",
+        "ffmpegDesc": "可用于合并高质量流、转换MP3、写入元数据和生成截图。",
+        "unsignedTitle": "未签名的开源版本",
+        "unsignedDesc": "目前未包含商业代码签名，因此操作系统可能会显示警告。"
+    },
+    "trust": {
+        "label": "系统与信任",
+        "title": "清楚了解您正在安装的内容。",
+        "desc": "Desktop Media Downloader是开源软件，无需应用账户，并将历史记录和偏好保存在本地应用存储中。",
+        "systemsTitle": "支持的系统",
+        "windows": "Windows 10或更高版本，x64",
+        "macos": "macOS 12或更高版本",
+        "linux": "当前的x64 Linux发行版",
+        "requirementsLink": "阅读系统要求",
+        "responsibleTitle": "负责任地使用",
+        "responsibleDesc": "仅下载您有权保存的媒体。本应用并非用于绕过DRM、付费墙或访问控制。",
+        "legalLink": "阅读法律声明",
+        "browserTitle": "可选的浏览器访问",
+        "browserDesc": "浏览器Cookie访问默认关闭，仅在您明确选择浏览器以访问需要身份验证的媒体时使用。",
+        "sourceLink": "审阅源代码"
+    },
+    "final": {
+        "eyebrow": "版本 1.0.0",
+        "title": "链接就绪，即刻开始。"
+    },
+    "footer": {
+        "releasesText": "所有二进制文件可在",
+        "releasesLink": "GitHub Releases",
+        "projectDescription": "改善桌面体验的小工具。",
+        "issues": "问题",
+        "license": "MIT许可证",
+        "copyright": "© 2026 Desktop Utilities贡献者。",
+        "warning": "首次启动时可能会看到签名警告 — 该应用是开源的，未进行商业代码签名。在Windows上点击<strong>更多信息 → 仍要运行</strong>，在macOS上使用<strong>系统设置 → 仍要打开</strong>。"
+    },
+    "modal": {
+        "badge": "下载已开始",
+        "title": "关于安装程序警告",
+        "body": "您的下载已开始。由于Desktop Media Downloader未进行商业代码签名，Windows和macOS可能会显示信任警告 — 这是签名成本问题，不是安全问题。",
+        "checksTitle": "快速检查",
+        "check1": "只使用本页面或官方GitHub发布的链接。",
+        "check2": "比较仓库中的版本标签和提交。",
+        "check3": "如需完全确认，请阅读源代码。",
+        "viewSource": "查看源码",
+        "gotIt": "明白了",
+        "close": "关闭"
+    }
+}

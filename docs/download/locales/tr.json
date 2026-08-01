@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "downloads": "İndirmeler",
+        "features": "Özellikler",
+        "screenshots": "Ekran Görüntüleri",
+        "source": "Kaynak"
+    },
+    "hero": {
+        "tag": "// açık kaynak & çapraz platform",
+        "title": "Medya indirmenin <em>daha temiz yolu.</em>",
+        "desc": "Bir bağlantı yapıştırın, format seçin, gerisini Desktop Media Downloader'a bırakın. Altyapıda Electron + yt-dlp, yüzeyde düzenli bir kuyruk.",
+        "downloadBtn": "İndir",
+        "seeFirst": "Önce gör"
+    },
+    "stats": {
+        "license": "Lisans",
+        "platforms": "Platformlar",
+        "backend": "Altyapı"
+    },
+    "downloads": {
+        "label": "İndirmeler",
+        "title": "Yükleyiciyi alın",
+        "desc": "En son GitHub sürümünden. İşletim sisteminizi seçin.",
+        "loading": "yükleniyor…",
+        "yourOS": "→ sizin işletim sisteminiz",
+        "windows": "Windows",
+        "macos": "macOS",
+        "linux": "Linux",
+        "windowsHint": ".exe yükleyici",
+        "macosHint": ".dmg disk kalıbı",
+        "linuxHint": ".AppImage taşınabilir",
+        "downloadBtn": "İndir",
+        "notInRelease": "Son sürümde mevcut değil.",
+        "releases": "Sürümler",
+        "couldNotLoad": "sürüm yüklenemedi"
+    },
+    "features": {
+        "label": "Özellikler",
+        "title": "Ne yapar",
+        "desc": "URL analizi, format seçimi, kuyruk yönetimi — terminal gerekmez.",
+        "metadataTitle": "URL meta veri önizleme",
+        "metadataDesc": "İndirmeden önce başlığı, süreyi ve mevcut formatları görün.",
+        "formatTitle": "Format ve kalite kontrolü",
+        "formatDesc": "Ses veya video profili seçin — tahmin yok, tekrar indirme yok.",
+        "playlistTitle": "Çalma listesi ve toplu destek",
+        "playlistDesc": "Tümünü almak yerine kanallardan ve çalma listelerinden belirli öğeleri seçin.",
+        "queueTitle": "Kuyruk yönetimi",
+        "queueDesc": "Duraklat, devam ettir, yeniden dene veya iptal et — hepsi bir ekranda.",
+        "wizardTitle": "Kendi kendine yeten medya motoru",
+        "wizardDesc": "Gerekli indirici ve JavaScript çalışma zamanı paketlenmiş ve doğrulanmıştır. Ayrı bir Python veya sistem yt-dlp kurulumu gerekmez.",
+        "historyTitle": "Kalıcı geçmiş",
+        "historyDesc": "Geçmiş indirmeler ve tercihler oturumlar arasında korunur."
+    },
+    "screenshots": {
+        "label": "Önizleme",
+        "title": "Neyi yüklüyorsunuz",
+        "desc": "Uygulamadan gerçek ekran görüntüleri.",
+        "homeCaption": "Ana sayfa — bir URL yapıştırın, meta veriyi görün, indirin.",
+        "formatCaption": "Format seçici — codec, çözünürlük, kapsayıcı seçin.",
+        "playlistCaption": "Çalma listesi seçici — bir gruptan öğe seçin.",
+        "queueCaption": "Kuyruk — ilerleme, duraklatma, yeniden deneme, hepsi bir arada."
+    },
+    "workflow": {
+        "label": "İş Akışı",
+        "title": "Dört adım, baştan sona",
+        "step1Title": "Kur",
+        "step1Desc": "Yükleyiciyi çalıştırın, kurulum sihirbazını takip edin.",
+        "step2Title": "Yapıştır",
+        "step2Desc": "Bir URL bırakın — meta veri ve formatlar otomatik yüklenir.",
+        "step3Title": "Yapılandır",
+        "step3Desc": "Format, kalite ve çıkış klasörünü ayarlayın.",
+        "step4Title": "İndir",
+        "step4Desc": "Başlatın. İlerlemeyi kuyrukta takip edin."
+    },
+    "releaseNotes": {
+        "coreTitle": "Kendi kendine yeten çekirdek",
+        "coreDesc": "Electron, desteklenen bir Node.js çalışma zamanı ve sağlama toplamı doğrulanmış yt-dlp derlemesi dahildir.",
+        "ffmpegTitle": "FFmpeg isteğe bağlıdır",
+        "ffmpegDesc": "Yüksek kaliteli akış birleştirme, MP3 dönüştürme, meta veri ve ekran görüntüleri için kurun.",
+        "unsignedTitle": "İmzasız açık kaynak derlemeleri",
+        "unsignedDesc": "Ticari kod imzalama henüz dahil değildir; işletim sisteminiz bir uyarı gösterebilir."
+    },
+    "trust": {
+        "label": "Sistem ve güven",
+        "title": "Ne yüklediğinizi tam olarak bilin.",
+        "desc": "Desktop Media Downloader açık kaynaklıdır, uygulama hesabı gerektirmez ve geçmiş ile tercihleri yerel uygulama depolamasında tutar.",
+        "systemsTitle": "Desteklenen sistemler",
+        "windows": "Windows 10 veya daha yeni, x64",
+        "macos": "macOS 12 veya daha yeni",
+        "linux": "Güncel bir x64 Linux dağıtımı",
+        "requirementsLink": "Sistem gereksinimlerini okuyun",
+        "responsibleTitle": "Sorumlu kullanım",
+        "responsibleDesc": "Yalnızca kaydetme yetkiniz olan medyaları indirin. Uygulama DRM, ödeme duvarları veya erişim denetimlerini aşmak için tasarlanmamıştır.",
+        "legalLink": "Yasal bildirimi okuyun",
+        "browserTitle": "İsteğe bağlı tarayıcı erişimi",
+        "browserDesc": "Tarayıcı çerezi erişimi varsayılan olarak kapalıdır ve yalnızca kimliği doğrulanmış medya için açıkça bir tarayıcı seçtiğinizde kullanılır.",
+        "sourceLink": "Kaynak kodu inceleyin"
+    },
+    "final": {
+        "eyebrow": "Sürüm 1.0.0",
+        "title": "Bağlantınız hazır olduğunda o da hazır."
+    },
+    "footer": {
+        "releasesText": "Tüm ikili dosyalar",
+        "releasesLink": "GitHub Releases",
+        "projectDescription": "Daha iyi masaüstü iş akışları için küçük araçlar.",
+        "issues": "Sorunlar",
+        "license": "MIT Lisansı",
+        "copyright": "© 2026 Desktop Utilities Katkıda Bulunanları.",
+        "warning": "İlk açılışta bir imza uyarısı görebilirsiniz — uygulama açık kaynaklıdır ve ticari olarak kod imzalı değildir. Windows'ta <strong>Daha fazla bilgi → Yine de çalıştır</strong>'a, macOS'ta <strong>Sistem Ayarları → Yine de Aç</strong>'a tıklayın."
+    },
+    "modal": {
+        "badge": "indirme başladı",
+        "title": "Yükleyici uyarıları hakkında",
+        "body": "İndirmeniz başladı. Desktop Media Downloader ticari olarak kod imzalı olmadığı için Windows ve macOS bir güven uyarısı gösterebilir — bu bir imzalama maliyeti meselesidir, güvenlik sorunu değildir.",
+        "checksTitle": "Hızlı kontroller",
+        "check1": "Sadece bu sayfadaki veya resmi GitHub sürümlerindeki bağlantıları kullanın.",
+        "check2": "Repodaki sürüm etiketlerini ve commitleri karşılaştırın.",
+        "check3": "Tam güven istiyorsanız kaynak kodu okuyun.",
+        "viewSource": "Kaynağı gör",
+        "gotIt": "Anlaşıldı",
+        "close": "Kapat"
+    }
+}

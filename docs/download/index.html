@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#f4f4f2" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0d0d0e" media="(prefers-color-scheme: dark)" />
+  <title>Desktop Media Downloader for Windows, macOS &amp; Linux</title>
+  <meta name="description"
+    content="Open-source desktop media downloader for Windows, macOS, and Linux. Save video, audio, playlists, and thumbnails from YouTube and other supported sites." />
+  <meta name="author" content="Desktop Utilities Contributors" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta property="og:title" content="Desktop Media Downloader for Windows, macOS &amp; Linux" />
+  <meta property="og:description"
+    content="An open-source yt-dlp desktop app for video, audio, playlists, thumbnails, and timestamp screenshots." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Desktop Media Downloader" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://desktoputilities.github.io/desktop-media-downloader/download/" />
+  <meta property="og:image"
+    content="https://desktoputilities.github.io/desktop-media-downloader/screenshots/website-download-preview.png" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="900" />
+  <meta property="og:image:alt" content="Desktop Media Downloader monochrome download website and application preview" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Desktop Media Downloader for Windows, macOS &amp; Linux" />
+  <meta name="twitter:description"
+    content="Open-source yt-dlp desktop app for video, audio, playlists, thumbnails, and screenshots." />
+  <meta name="twitter:image"
+    content="https://desktoputilities.github.io/desktop-media-downloader/screenshots/website-download-preview.png" />
+  <meta name="twitter:image:alt" content="Desktop Media Downloader website and desktop interface" />
+  <link rel="canonical" href="https://desktoputilities.github.io/desktop-media-downloader/download/" />
+  <link rel="sitemap" type="application/xml" href="../sitemap.xml" />
+  <link rel="license" href="https://github.com/desktoputilities/desktop-media-downloader/blob/main/LICENSE" />
+  <link rel="icon" type="image/svg+xml" href="./desktop-media-downloader-icon.svg"
+    media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/svg+xml" href="./desktop-media-downloader-icon-inverted.svg"
+    media="(prefers-color-scheme: dark)" />
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem('desktop-media-site-theme');
+        if (savedTheme === 'light' || savedTheme === 'dark') {
+          document.documentElement.dataset.theme = savedTheme;
+        }
+      } catch (_) { /* Use the system theme when storage is unavailable. */ }
+    })();
+  </script>
+  <link rel="stylesheet" href="./styles.css?v=1.0.0" />
+  <script src="./app.js?v=1.0.0" defer></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://desktoputilities.github.io/desktop-media-downloader/download/#organization",
+          "name": "Desktop Utilities",
+          "url": "https://github.com/desktoputilities",
+          "logo": "https://desktoputilities.github.io/desktop-media-downloader/download/desktoputilities-mark.svg"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://desktoputilities.github.io/desktop-media-downloader/download/#website",
+          "url": "https://desktoputilities.github.io/desktop-media-downloader/download/",
+          "name": "Desktop Media Downloader",
+          "description": "Official download website for the open-source Desktop Media Downloader application.",
+          "publisher": {
+            "@id": "https://desktoputilities.github.io/desktop-media-downloader/download/#organization"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://desktoputilities.github.io/desktop-media-downloader/download/#software",
+          "name": "Desktop Media Downloader",
+          "description": "An open-source desktop application for downloading authorized video, audio, playlists, thumbnails, and timestamp screenshots with yt-dlp.",
+          "url": "https://desktoputilities.github.io/desktop-media-downloader/download/",
+          "downloadUrl": "https://github.com/desktoputilities/desktop-media-downloader/releases/latest",
+          "codeRepository": "https://github.com/desktoputilities/desktop-media-downloader",
+          "softwareVersion": "1.0.0",
+          "applicationCategory": "MultimediaApplication",
+          "applicationSubCategory": "Media downloader",
+          "operatingSystem": "Windows 10 or later; macOS 12 or later; Linux x64",
+          "softwareRequirements": "FFmpeg is optional and recommended for stream merging, conversion, metadata, and screenshots.",
+          "isAccessibleForFree": true,
+          "license": "https://github.com/desktoputilities/desktop-media-downloader/blob/main/LICENSE",
+          "image": "https://desktoputilities.github.io/desktop-media-downloader/screenshots/website-download-preview.png",
+          "screenshot": [
+            "https://desktoputilities.github.io/desktop-media-downloader/screenshots/home-preview.png",
+            "https://desktoputilities.github.io/desktop-media-downloader/screenshots/format-selector.png",
+            "https://desktoputilities.github.io/desktop-media-downloader/screenshots/downloads-queue.png"
+          ],
+          "featureList": [
+            "Fast URL and metadata previews",
+            "Video, audio, playlist, thumbnail, and screenshot downloads",
+            "Format and quality selection",
+            "Persistent download queue and local history",
+            "Bundled checksum-verified yt-dlp runtime"
+          ],
+          "publisher": {
+            "@id": "https://desktoputilities.github.io/desktop-media-downloader/download/#organization"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/OnlineOnly"
+          }
+        }
+      ]
+    }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Desktop Media Downloader home">
+        <span class="theme-logo brand-symbol" aria-hidden="true">
+          <img class="logo-light" src="./desktop-media-downloader-icon.svg" alt="" />
+          <img class="logo-dark" src="./desktop-media-downloader-icon-inverted.svg" alt="" />
+        </span>
+        <span class="brand-copy">
+          <strong>Desktop Media Downloader</strong>
+          <span>Desktop Utilities</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#downloads" data-i18n="nav.downloads">Downloads</a>
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Toggle color theme"
+          title="Toggle color theme">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="8.25" />
+            <path d="M12 3.75a8.25 8.25 0 0 0 0 16.5z" />
+          </svg>
+        </button>
+
+        <div class="language-menu">
+          <button class="language-button" id="language-toggle" type="button" aria-expanded="false"
+            aria-controls="language-options">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="8.5" />
+              <path d="M3.5 12h17M12 3.5c2.3 2.3 3.5 5.1 3.5 8.5S14.3 18.2 12 20.5M12 3.5C9.7 5.8 8.5 8.6 8.5 12s1.2 6.2 3.5 8.5" />
+            </svg>
+            <span id="language-label">EN</span>
+          </button>
+          <div class="language-options" id="language-options" role="menu"></div>
+        </div>
+
+        <a class="source-button" href="https://github.com/desktoputilities/desktop-media-downloader" target="_blank"
+          rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 2.75a9.5 9.5 0 0 0-3 18.52c.48.09.66-.2.66-.46v-1.84c-2.68.58-3.25-1.14-3.25-1.14-.44-1.12-1.08-1.42-1.08-1.42-.88-.6.07-.59.07-.59.97.07 1.49 1 1.49 1 .87 1.49 2.28 1.06 2.84.81.09-.63.34-1.06.62-1.3-2.14-.24-4.39-1.07-4.39-4.7 0-1.04.37-1.89 1-2.56-.1-.25-.44-1.22.09-2.52 0 0 .81-.26 2.61.98A9.1 9.1 0 0 1 12 7.25c.81 0 1.62.1 2.38.32 1.81-1.24 2.61-.98 2.61-.98.53 1.3.2 2.27.1 2.52.62.67 1 1.52 1 2.56 0 3.64-2.26 4.45-4.41 4.69.35.3.65.88.65 1.78v2.67c0 .26.18.55.67.46A9.5 9.5 0 0 0 12 2.75Z" />
+          </svg>
+          <span data-i18n="nav.source">Source</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n-html="hero.tag">Open source / Windows / macOS / Linux</p>
+        <h1 data-i18n-html="hero.title">A focused <em>desktop media downloader.</em></h1>
+        <p class="hero-description" data-i18n="hero.desc">
+          Download video, audio, playlists, thumbnails, and timestamp screenshots from YouTube and other
+          yt-dlp-supported sites when you are authorized to save them.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#downloads">
+            <span data-i18n="hero.downloadBtn">Download</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 4v11m0 0 4-4m-4 4-4-4M5 20h14" />
+            </svg>
+          </a>
+          <a class="button button-secondary" href="#screenshots" data-i18n="hero.seeFirst">See the interface</a>
+        </div>
+        <dl class="hero-facts">
+          <div>
+            <dt data-i18n="stats.license">License</dt>
+            <dd>MIT</dd>
+          </div>
+          <div>
+            <dt data-i18n="stats.platforms">Platforms</dt>
+            <dd>Windows · macOS · Linux</dd>
+          </div>
+          <div>
+            <dt data-i18n="stats.backend">Media engine</dt>
+            <dd>yt-dlp</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-visual" aria-label="Desktop Media Downloader application preview">
+        <div class="visual-meta">
+          <span>DESKTOP / 01</span>
+          <span>VERSION 1.0.0</span>
+        </div>
+        <div class="app-frame">
+          <div class="frame-bar">
+            <span class="frame-title">Desktop Media Downloader</span>
+            <span class="frame-controls" aria-hidden="true"><i></i><i></i><i></i></span>
+          </div>
+          <img src="../screenshots/home-preview.png"
+            alt="Desktop Media Downloader home screen showing a YouTube URL preview" />
+        </div>
+        <div class="visual-note">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Local desktop workflow</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="release-section" id="downloads">
+      <div class="shell">
+        <div class="section-heading release-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="downloads.label">Downloads</p>
+            <h2 data-i18n="downloads.title">Choose your installer.</h2>
+            <p data-i18n="downloads.desc">Official builds are loaded directly from the latest GitHub release.</p>
+          </div>
+          <div class="release-state" id="release-status" role="status" aria-live="polite">
+            <span class="status-dot is-loading" aria-hidden="true"></span>
+            <span data-i18n="downloads.loading">Checking the latest release…</span>
+          </div>
+        </div>
+
+        <div class="download-grid reveal" id="download-cards" aria-live="polite"></div>
+
+        <div class="release-notes reveal">
+          <article>
+            <span class="note-index">01</span>
+            <div>
+              <strong data-i18n="releaseNotes.coreTitle">Self-contained core</strong>
+              <p data-i18n="releaseNotes.coreDesc">Electron, a supported Node.js runtime, and a checksum-verified yt-dlp build are included.</p>
+            </div>
+          </article>
+          <article>
+            <span class="note-index">02</span>
+            <div>
+              <strong data-i18n="releaseNotes.ffmpegTitle">FFmpeg is optional</strong>
+              <p data-i18n="releaseNotes.ffmpegDesc">Install it for high-quality stream merging, MP3 conversion, metadata, and screenshots.</p>
+            </div>
+          </article>
+          <article>
+            <span class="note-index">03</span>
+            <div>
+              <strong data-i18n="releaseNotes.unsignedTitle">Unsigned open-source builds</strong>
+              <p data-i18n="releaseNotes.unsignedDesc">Commercial code signing is not currently included, so your operating system may show a warning.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="features">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow" data-i18n="features.label">Capabilities</p>
+          <h2 data-i18n="features.title">The control you need.<br />Nothing you do not.</h2>
+        </div>
+        <p data-i18n="features.desc">Analyze links, choose formats, and manage the queue without working in a terminal.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature feature-wide reveal">
+          <span class="feature-number">01</span>
+          <div class="feature-copy">
+            <h3 data-i18n="features.metadataTitle">Fast URL previews</h3>
+            <p data-i18n="features.metadataDesc">See an immediate preview while full metadata and available formats load in the background.</p>
+          </div>
+          <div class="preview-diagram" aria-hidden="true">
+            <span class="preview-line preview-line-short"></span>
+            <span class="preview-line"></span>
+            <div class="preview-progress"><i></i></div>
+            <span class="preview-chip">1080p</span>
+            <span class="preview-chip">MP3</span>
+            <span class="preview-chip">WEBM</span>
+          </div>
+        </article>
+
+        <article class="feature reveal">
+          <span class="feature-number">02</span>
+          <div class="feature-copy">
+            <h3 data-i18n="features.formatTitle">Format and quality control</h3>
+            <p data-i18n="features.formatDesc">Choose video, audio, thumbnails, or timestamp screenshots with clear output options.</p>
+          </div>
+        </article>
+
+        <article class="feature reveal">
+          <span class="feature-number">03</span>
+          <div class="feature-copy">
+            <h3 data-i18n="features.playlistTitle">Playlist and batch support</h3>
+            <p data-i18n="features.playlistDesc">Inspect a playlist and select the exact items you want before the queue starts.</p>
+          </div>
+        </article>
+
+        <article class="feature reveal">
+          <span class="feature-number">04</span>
+          <div class="feature-copy">
+            <h3 data-i18n="features.queueTitle">Reliable queue management</h3>
+            <p data-i18n="features.queueDesc">Pause, resume, cancel, or retry downloads and keep completed work organized.</p>
+          </div>
+        </article>
+
+        <article class="feature reveal">
+          <span class="feature-number">05</span>
+          <div class="feature-copy">
+            <h3 data-i18n="features.historyTitle">Local history</h3>
+            <p data-i18n="features.historyDesc">History and preferences stay on your device and can be removed whenever you choose.</p>
+          </div>
+        </article>
+
+        <article class="feature feature-wide feature-inverted reveal">
+          <span class="feature-number">06</span>
+          <div class="feature-copy">
+            <h3 data-i18n="features.wizardTitle">Self-contained media engine</h3>
+            <p data-i18n="features.wizardDesc">The required downloader and JavaScript runtime are bundled and verified. No separate Python or system yt-dlp installation is required.</p>
+          </div>
+          <div class="engine-stack" aria-hidden="true">
+            <span>DESKTOP UI</span>
+            <span>MEDIA ENGINE</span>
+            <span>LOCAL FILES</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="screenshots">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="screenshots.label">Interface</p>
+            <h2 data-i18n="screenshots.title">Made to stay out of your way.</h2>
+          </div>
+          <p data-i18n="screenshots.desc">Actual application captures in its monochrome dark theme.</p>
+        </div>
+
+        <div class="gallery reveal">
+          <figure class="gallery-primary">
+            <img src="../screenshots/home-preview.png" alt="Home page and media URL preview" loading="lazy" />
+            <figcaption>
+              <span>01 / HOME</span>
+              <span data-i18n="screenshots.homeCaption">Paste a URL and get a responsive media preview.</span>
+            </figcaption>
+          </figure>
+          <div class="gallery-secondary">
+            <figure>
+              <img src="../screenshots/format-selector.png" alt="Video format and quality selector" loading="lazy" />
+              <figcaption>
+                <span>02 / FORMAT</span>
+                <span data-i18n="screenshots.formatCaption">Choose quality, format, and output type.</span>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="../screenshots/playlist-modal.png" alt="Playlist item selection modal" loading="lazy" />
+              <figcaption>
+                <span>03 / PLAYLIST</span>
+                <span data-i18n="screenshots.playlistCaption">Select individual items from a batch.</span>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="../screenshots/downloads-queue.png" alt="Persistent downloads queue" loading="lazy" />
+              <figcaption>
+                <span>04 / QUEUE</span>
+                <span data-i18n="screenshots.queueCaption">Track progress and recover failed jobs.</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell workflow-section" id="workflow">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow" data-i18n="workflow.label">Workflow</p>
+          <h2 data-i18n="workflow.title">From link to file in four steps.</h2>
+        </div>
+      </div>
+      <ol class="workflow-list reveal">
+        <li>
+          <span>01</span>
+          <div>
+            <h3 data-i18n="workflow.step1Title">Install</h3>
+            <p data-i18n="workflow.step1Desc">Run the installer and confirm the first-run system check.</p>
+          </div>
+        </li>
+        <li>
+          <span>02</span>
+          <div>
+            <h3 data-i18n="workflow.step2Title">Paste</h3>
+            <p data-i18n="workflow.step2Desc">Add a supported media URL and review the preview.</p>
+          </div>
+        </li>
+        <li>
+          <span>03</span>
+          <div>
+            <h3 data-i18n="workflow.step3Title">Configure</h3>
+            <p data-i18n="workflow.step3Desc">Choose output type, quality, and destination.</p>
+          </div>
+        </li>
+        <li>
+          <span>04</span>
+          <div>
+            <h3 data-i18n="workflow.step4Title">Download</h3>
+            <p data-i18n="workflow.step4Desc">Start the job and manage it from the persistent queue.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="trust-section">
+      <div class="shell trust-grid reveal">
+        <div class="trust-intro">
+          <p class="eyebrow" data-i18n="trust.label">System &amp; trust</p>
+          <h2 data-i18n="trust.title">Know exactly what you are installing.</h2>
+          <p data-i18n="trust.desc">Desktop Media Downloader is open source, requires no app account, and keeps its history and preferences in local application storage.</p>
+        </div>
+        <div class="trust-details">
+          <article>
+            <h3 data-i18n="trust.systemsTitle">Supported systems</h3>
+            <ul>
+              <li data-i18n="trust.windows">Windows 10 or newer, x64</li>
+              <li data-i18n="trust.macos">macOS 12 or newer</li>
+              <li data-i18n="trust.linux">A current x64 Linux distribution</li>
+            </ul>
+            <a href="https://github.com/desktoputilities/desktop-media-downloader/blob/main/SYSTEM_REQUIREMENTS.md"
+              target="_blank" rel="noreferrer"><span data-i18n="trust.requirementsLink">Read system requirements</span> <span aria-hidden="true">↗</span></a>
+          </article>
+          <article>
+            <h3 data-i18n="trust.responsibleTitle">Responsible use</h3>
+            <p data-i18n="trust.responsibleDesc">Only download media you are authorized to save. The app is not intended to bypass DRM, paywalls, or access controls.</p>
+            <a href="https://github.com/desktoputilities/desktop-media-downloader/blob/main/LEGAL.md" target="_blank"
+              rel="noreferrer"><span data-i18n="trust.legalLink">Read the legal notice</span> <span aria-hidden="true">↗</span></a>
+          </article>
+          <article>
+            <h3 data-i18n="trust.browserTitle">Optional browser access</h3>
+            <p data-i18n="trust.browserDesc">Browser-cookie access is disabled by default and is used only when you explicitly choose a browser for authenticated media.</p>
+            <a href="https://github.com/desktoputilities/desktop-media-downloader" target="_blank"
+              rel="noreferrer"><span data-i18n="trust.sourceLink">Review the source</span> <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta shell reveal">
+      <span class="theme-logo final-mark" aria-hidden="true">
+        <img class="logo-light" src="./desktop-media-downloader-icon.svg" alt="" />
+        <img class="logo-dark" src="./desktop-media-downloader-icon-inverted.svg" alt="" />
+      </span>
+      <div>
+        <p class="eyebrow" data-i18n="final.eyebrow">Version 1.0.0</p>
+        <h2 data-i18n="final.title">Ready when your link is.</h2>
+      </div>
+      <a class="button button-primary" href="#downloads">
+        <span data-i18n="hero.downloadBtn">Download</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 4v11m0 0 4-4m-4 4-4-4M5 20h14" />
+        </svg>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-main">
+      <a class="publisher" href="https://github.com/desktoputilities" target="_blank" rel="noreferrer">
+        <img src="./desktoputilities-mark.svg" alt="" />
+        <span>
+          <strong>Desktop Utilities</strong>
+          <small data-i18n="footer.projectDescription">Small tools for better desktop workflows.</small>
+        </span>
+      </a>
+      <div class="footer-links">
+        <a href="https://github.com/desktoputilities/desktop-media-downloader/releases" target="_blank"
+          rel="noreferrer" data-i18n="footer.releasesLink">Releases</a>
+        <a href="https://github.com/desktoputilities/desktop-media-downloader/issues" target="_blank"
+          rel="noreferrer" data-i18n="footer.issues">Issues</a>
+        <a href="https://github.com/desktoputilities/desktop-media-downloader/blob/main/LICENSE" target="_blank"
+          rel="noreferrer" data-i18n="footer.license">MIT License</a>
+        <a href="https://github.com/desktoputilities/desktop-media-downloader" target="_blank" rel="noreferrer"
+          data-i18n="nav.source">Source</a>
+      </div>
+    </div>
+    <div class="shell footer-meta">
+      <p data-i18n="footer.copyright">© 2026 Desktop Utilities Contributors.</p>
+      <p data-i18n-html="footer.warning">Open-source builds are not currently commercially code-signed. Verify downloads against the official GitHub release.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

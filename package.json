@@ -1,0 +1,84 @@
+{
+  "name": "desktop-media-downloader",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Open-source yt-dlp desktop media downloader for Windows, macOS, and Linux.",
+  "keywords": [
+    "electron",
+    "react",
+    "typescript",
+    "media-downloader",
+    "yt-dlp",
+    "yt-dlp-gui",
+    "desktop-app",
+    "video-downloader",
+    "audio-downloader",
+    "playlist-downloader",
+    "youtube-downloader",
+    "cross-platform",
+    "open-source",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "license": "MIT",
+  "author": "Desktop Utilities",
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
+  },
+  "homepage": "https://desktoputilities.github.io/desktop-media-downloader/download/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desktoputilities/desktop-media-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/desktoputilities/desktop-media-downloader/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "prepare:electron": "install-electron",
+    "prepare:yt-dlp": "node scripts/bundle-yt-dlp.mjs",
+    "prepare:deps": "npm run prepare:electron && npm run prepare:yt-dlp",
+    "postinstall": "npm run prepare:deps",
+    "build:app": "tsc && vite build",
+    "build": "npm run build:app && electron-builder",
+    "build:bundled": "npm run prepare:deps && npm run build:app && electron-builder --publish never",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check": "npm test && npm run lint && npm run typecheck",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.25",
+    "i18next": "^25.8.13",
+    "lucide-react": "^0.556.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^16.5.4",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^6.0.5",
+    "autoprefixer": "^10.5.4",
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.5.25",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.5.4",
+    "vite": "^8.2.0",
+    "vite-plugin-electron": "^1.1.0",
+    "vite-plugin-electron-renderer": "^1.0.0",
+    "vitest": "^4.1.10"
+  },
+  "main": "dist-electron/main.js"
+}

